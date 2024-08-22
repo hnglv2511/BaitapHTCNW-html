@@ -1,0 +1,41 @@
+h1 { text-align: center; font-family: Arial; }
+h2 { color: #440000; 
+text-align: center;
+font-family: Arial Black, Arial, Helvetica;
+}
+
+
+
+
+.parent {
+    border: 2px black dotted;
+    display: inline-block;
+}
+.box {
+    display: inline-block;
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+#two {
+top: 20px;
+left: 20px;
+background: green;
+position: fixed;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    }
+    th, td {
+    text-align: left;
+    padding: 8px;
+    }
+    tr:nth-child(even) {
+    background-color: #f2f2f2;
+    }
+       
+    
