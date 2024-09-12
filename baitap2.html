@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai Tap 2</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px auto;
+        }
+        
+        .wrapper {
+            height: 600px;
+            width: 960px;
+            background-color: antiquewhite;
+        }
+        
+        header {
+            height: 150px;
+            width: 960px;
+            background-color: #294e79;
+            position: relative;
+        }
+        
+        header.img {
+            top: 20px;
+            left: 10px;
+            position: absolute;
+        }
+        
+        header h2 {
+            top: 20px;
+            left: 120px;
+            position: absolute;
+            color: white;
+        }
+        
+        header h4 {
+            top: 50px;
+            left: 120px;
+            position: absolute;
+            color: white;
+        }
+        
+        header #frm {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        
+        header #frm #txtS {
+            border: 1px solid gray;
+            padding: 2px;
+        }
+        
+        header #frm #btnS {
+            border: 1px solid gray;
+            padding: 2px;
+            border-radius: 50%;
+            background-color: cadetblue;
+        }
+        
+        nav {
+            position: absolute;
+            bottom: 3px;
+            right: 20px;
+        }
+        
+        .menu li {
+            display: inline-table;
+            background-color: #576c85;
+            height: 50px;
+            line-height: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        .menu li:hover {
+            background-color: #e673c3;
+        }
+        
+        .menu li a {
+            color: white;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+        
+        .menu li .sub-menu {
+            display: none;
+            background-color: #576c85;
+            height: 50px;
+            line-height: 50px;
+            position: absolute;
+        }
+        
+        .menu li:hover .sub-menu {
+            display: block;
+            left: 0px;
+            top: 51px;
+        }
+        
+        .menu li:nth-child(4) {
+            position: relative;
+        }
+        
+        .menu li .sub-menu li:nth-child(1) {
+            position: absolute;
+            top: 2px;
+            left: 0px;
+            width: 115px;
+        }
+        
+        .menu li .sub-menu li:nth-child(2) {
+            position: absolute;
+            top: 54px;
+            left: 0px;
+            width: 115px;
+        }
+        
+        .menu li .sub-menu li:nth-child(3) {
+            position: absolute;
+            top: 106px;
+            left: 0px;
+            width: 115px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="../img/../PNG/flower.png" alt="" srcset="" height="100" width="80">
+            <h2>FlowerBox 360</h2>
+            <h4>...to get your daily close of luxury roses!</h4>
+            <form action="" method="post" id="frm">
+                <input type="text" name="txts" id="txt5" placeholder- "Nhap" required>
+                <button type="submit" id="btnS">GO</button>
+            </form>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Promotion</a></li>
+                    <li><a href="#">Gift Baskets</a></li>
+                    <li><a href="#">Flowers Services </a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Promotion</a></li>
+                            <li><a href="#">Gift Baskets</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content"></div>
+        <footer></footer>
+    </div>
+</body>
+
+</html>
